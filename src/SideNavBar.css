@@ -1,0 +1,33 @@
+/** @format */
+
+.sideNavBar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  height: 100vh;
+
+  background: #ff6c40;
+}
+
+.options {
+  height: 82px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.options:hover {
+  background: #ffc480;
+}
+
+.options > img {
+  width: 35.02px;
+  height: 36px;
+}

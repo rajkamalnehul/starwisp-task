@@ -1,0 +1,9 @@
+/** @format */
+
+.screen1 {
+  display: flex;
+  max-width: 1804px;
+  max-height: 1084px;
+
+  background: #f2f2f2;
+}
