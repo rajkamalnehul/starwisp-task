@@ -1,0 +1,14 @@
+/** @format */
+
+.graph-component-wrapper {
+  margin: 38px 0 0 21px;
+  filter: drop-shadow(0px 3px 6px #6c78de);
+  width: max-content;
+  border-radius: 15px;
+  padding: 17px 0 8px 12px;
+  background: #ffffff;
+}
+.graph-component-wrapper img {
+  height: 200px;
+  width: 280px;
+}

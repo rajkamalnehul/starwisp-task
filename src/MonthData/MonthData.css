@@ -1,0 +1,45 @@
+/** @format */
+
+.month-data-card {
+  filter: drop-shadow(0px 3px 6px #6c78de);
+  max-width: 250px;
+  height: 117px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 2px;
+  margin-top: 38px;
+  margin-left: 19px;
+}
+.month-data-header {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 9px;
+  border-bottom: 0.5px solid #bbbbbb;
+
+  color: #000000;
+}
+.month-data-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 25px 32px 0 33px;
+}
+.month-data-val {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 28px;
+
+  color: #0f26f2;
+}
+.month-data-graph img {
+  width: 97px;
+  height: 32px;
+  margin-left: 15px;
+}

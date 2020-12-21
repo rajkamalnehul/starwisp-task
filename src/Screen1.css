@@ -2,8 +2,32 @@
 
 .screen1 {
   display: flex;
-  max-width: 1804px;
-  max-height: 1084px;
+  max-width: 1700px;
+  max-height: max-content;
+  background: #f2f2f2;
+}
+
+.screen1_content_container {
+  flex: 1;
 
   background: #f2f2f2;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  height: 100vh;
+}
+.screen1::-webkit-scrollbar {
+  width: 6px;
+}
+
+/**.screen1 {
+  display: flex;
+  max-width: 100%;
+  height: max-content;
+  background: hsl(0, 0%, 95%);
+}*/
+.app-top {
+  display: flex;
+}
+.app-left-bottom {
+  display: flex;
 }

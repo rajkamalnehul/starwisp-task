@@ -3,24 +3,32 @@
 .sideNavBar {
   display: flex;
   flex-direction: column;
-  flex: 0.25;
-  height: 100vh;
+  width: 269px;
 
+  height: 100vh;
+  padding: 7px 0 0 0;
   background: #ff6c40;
 }
 
 .options {
-  height: 82px;
-  font-family: SF Pro Display;
+  display: flex;
+  flex-direction: row;
+  padding: 23px 30px;
+
+  cursor: pointer;
+}
+.navbar-item {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 7px;
+  /* identical to box height */
+
+  color: #ffffff;
+  width: max-content;
+  padding-left: 30px;
+  margin: auto 0;
 }
 
 .options:hover {
@@ -28,6 +36,6 @@
 }
 
 .options > img {
-  width: 35.02px;
+  width: 36px;
   height: 36px;
 }

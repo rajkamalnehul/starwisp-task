@@ -1,0 +1,124 @@
+/** @format */
+
+.notification-component-wrapper {
+  margin: 27px 0 0 32px;
+  width: 331px;
+  height: max-content;
+  flex: 0.75;
+  background: #ffffff;
+  border-radius: 15px;
+}
+.notification-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #fafafa;
+  color: #b0b0b0;
+  border-radius: 15px 15px 0 0;
+}
+.active {
+  border-radius: 15px 15px 0 0;
+  background: #ffffff !important;
+  color: #494949 !important;
+}
+.menu-item {
+  width: 179px;
+  height: 53px;
+}
+.menu-text {
+  padding: 15px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.content-box {
+  margin: 14px 13px 11px 15px;
+  width: 303px;
+  height: max-content;
+
+  background: #ffffff;
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+}
+.content-item-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 8px 20px 10px;
+}
+.divider {
+  border-bottom: 1px solid #ececec;
+}
+.icon-div {
+  margin-right: 16px;
+  min-width: 46px;
+  min-height: 54px;
+  background: pink;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.details-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pink {
+  background: #ffd9d9;
+}
+.purple {
+  background: #ba99ff;
+}
+.yellow {
+  background: #f5e764;
+}
+.blue {
+  background: #d9ffe1;
+}
+.item-title {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #484848;
+}
+.item-desc {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #756f6f;
+}
+.item-time {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7px;
+  line-height: 8px;
+
+  color: #756f6f;
+}
+.view-all-btn {
+  margin: 42px auto 0 auto;
+  width: 71px;
+  height: 12px;
+  background: #f8f8f8;
+  border-radius: 15px 15px 0px 0px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 7px 0;
+}
+.view-all-btn-text {
+  margin: auto auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7px;
+  line-height: 8px;
+  /* identical to box height */
+  color: #756f6f;
+}

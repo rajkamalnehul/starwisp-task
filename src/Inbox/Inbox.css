@@ -1,0 +1,36 @@
+.inbox-wrapper{
+    margin-top:45px;
+    margin-left:21px;
+    height:103px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #FFFFFF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+border-radius: 15px;
+}
+.inbox-heading{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+padding:40px 30px;
+/* identical to box height */
+
+
+color: #929292;
+}
+.inbox-number{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 48px;
+padding: 28px 13px;
+/* identical to box height */
+
+
+color: #593636;
+}
